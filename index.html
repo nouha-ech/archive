@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertisseur</title>
+</head>
+<body>
+    <div class="container">
+        <h2 >Convertisseur</h2>
+        <label for="value"></label>
+        <input type="text" id="value" placeholder="entrer le prix">
+        <label for="currency"></label>
+        <select id="currency">
+            <option value="DH">DH</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+        </select>
+        <button onclick="convertir()">convertir</button>
+        <h3 id="resultat"></h3>
+    </div>
+    <script src="/convertisseur/script.js"></script>
+</body>
+</html>
